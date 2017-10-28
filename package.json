@@ -1,0 +1,18 @@
+{
+  "name": "pinapple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "uglifycss css/*.css > dist/build.css",
+    "build:js": "uglifyjs js/*.js --compress --mangle  -o dist/build.js",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "~3.1.1",
+    "uglifycss": "0.0.27"
+  }
+}
