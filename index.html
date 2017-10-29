@@ -5,11 +5,11 @@
 	<title>菠萝星球</title>
 	<meta name="viewport" content="user-scalable=no">
 	<link rel="icon" href="http://su.yzcdn.cn/public_files/2017/9/21/db9fbf64fa4d08ba6ebcc464a9c5942b.png">
-	<link rel="stylesheet" type="text/css" href="http://b.yzcdn.cn/public_files/2017/10/29/68ef1ee7c8d9f1bfc16872161bdad901.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="http://b.yzcdn.cn/public_files/2017/10/29/68ef1ee7c8d9f1bfc16872161bdad901.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/swiper.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
 	<script src="http://b.yzcdn.cn/public_files/2017/10/12/dd122d6d6ac93273d8fc519b3b2864c1.js"></script>
 </head>
 <body>
@@ -84,8 +84,13 @@
 		<section class="videos">
 			<div class="container">
 				<h2>菠萝星球的课程示例</h2>
+				<div class="btn-group">
+					<button id="video-btn1">科学探索</button>
+					<button id="video-btn2">智数开发</button>
+					<button id="video-btn3">美的启蒙</button>
+				</div>
 				<div class="">
-					<video src="video/video-1.mp4" controls="controls" height="300" width="600">
+					<video id="media" src="video/video-4.mp4" controls="controls" height="300" width="600" autoplay>
 						您的浏览器不支持视频播放。
 					</video>
 					<div class="circle-group">
@@ -332,6 +337,24 @@
 					e.style.display = 'block';
 				});
 			}
+		});
+
+		const btn1 = document.getElementById('video-btn1');
+		const btn2 = document.getElementById('video-btn2');
+		const btn3 = document.getElementById('video-btn3');
+		const video = document.getElementById('media');
+
+		btn1.addEventListener('click', function() {
+			video.src = 'video/video-4.mp4';
+			video.load();
+		});
+		btn2.addEventListener('click', function() {
+			video.src = 'video/video-1.mp4';
+			video.load();
+		});
+		btn3.addEventListener('click', function() {
+			video.src = 'video/video-3.mp4';
+			video.load();
 		});
 	}
 </script>

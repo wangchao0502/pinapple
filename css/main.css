@@ -240,19 +240,48 @@ section.course-system .features .card ul > li:before {
     font-size: 16px;
 }
 
+section.videos .btn-group {
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	left: 25px;
+}
+
+section.videos .btn-group button {
+	outline: none;
+	background-image: url(http://b.yzcdn.cn/public_files/2017/10/29/7f8d0fab839a0643d393709c6673c522.png);
+	border: none;
+	display: inline-block;
+	background-color: transparent;
+	color: white;
+	height: 40px;
+	width: 196px;
+	background-repeat: no-repeat;
+	background-size: 75% 94%;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 36px;
+	cursor: pointer;
+}
+
+section.videos .btn-group button:hover {
+	text-shadow: 1px 1px 10px green;
+}
+
 section.videos video {
-	margin-top: 20px;
-	margin-left: 120px;
 	background-color: black;
+	margin: 20px auto;
+	width: 600px;
+	display: block;
 }
 
 section.videos .circle-group {
-	float: right;
-	margin-right: 100px;
+	margin: 0 auto;
+	width: 400px;
 }
 
 section.videos .circle-group > .circle {
-	display: block;
+	display: inline-block;
 	width: 80px;
 	height: 80px;
 	font-size: 16px;
@@ -261,7 +290,8 @@ section.videos .circle-group > .circle {
 	color: #f29642;
 	text-align: center;
 	padding: 20px 10px;
-	margin: 24px;
+	margin: 10px 24px 0;
+	font-weight: bold;
 }
 /* section dev-team */
 section.dev-team .professors {
