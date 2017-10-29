@@ -1,0 +1,258 @@
+section h3 {
+	color: #f29642;
+	font-size: 24px;
+	line-height: 1.6;
+}
+
+section.afterschool-banner {
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 86%;
+}
+
+section.afterschool-banner h2 {
+	font-size: 50px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin: 18px auto;
+	width: 300px;
+	padding: 10px;
+}
+
+section.three-d-print .creative {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+section.three-d-print .creative > .col {
+	float: left;
+}
+
+section.three-d-print .creative img.print-machine {
+	height: 280px;
+	position: relative;
+	left: 50px;
+	top: 28px;
+}
+
+section.three-d-print .creative .item {
+	float: left;
+	width: 178px;
+	text-align: center;
+}
+
+section.three-d-print .creative .item > img {
+	height: 80px;
+}
+
+section.three-d-print .creative .item > p {
+	font-size: 16px;
+	color: #f29642;
+}
+
+section.three-d-print .media {
+	margin-top: 40px;
+	text-align: center;
+}
+
+section.three-d-print .media img {
+	height: 226px;
+}
+
+section.migo .lessons {
+	padding: 0 60px;
+}
+
+section.migo .lessons img {
+	height: 88px;
+}
+
+section.migo .funny {
+	padding: 0 60px;
+	overflow: hidden;
+}
+
+section.migo .funny .item {
+	float: left;
+	width: 48%;
+}
+
+section.migo .funny .item img {
+	height: 160px;
+	float: left;
+}
+
+section.migo .funny .item .description {
+	display: inline-block;
+	width: 200px;
+	margin-left: 24px;
+}
+
+section.migo .funny .item .description > h4 {
+	display: inline-block;
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #f29642;
+	padding: 8px 14px;
+	border-radius: 18px;
+	color: white;
+}
+
+section.migo .funny .item .description > p {
+	padding: 0;
+	text-align: left;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+section.monkey .code-monkey {
+	overflow: hidden;
+}
+
+section.monkey .code-monkey > .col {
+	float: left;
+	width: 33%;
+}
+
+section.monkey .code-monkey > .col.first {
+	text-align: center;
+}
+
+section.monkey .code-monkey > .col.first img {
+	width: 200px;
+	margin-top: 48px;
+}
+
+section.monkey .code-monkey > .col.third img {
+	width: 280px;
+}
+
+section.monkey ul {
+	padding: 0;
+}
+
+section.monkey ul > li {
+	list-style-type: none;
+	background-image: url(http://b.yzcdn.cn/public_files/2017/10/29/9d90b971c5950824099e02a177b7a0d9.png?imageView2/2/w/24);
+	background-repeat: no-repeat;
+	margin: 24px 0;
+	padding-left: 24px;
+	margin-left: -12px;
+}
+
+section.monkey ul > li > p {
+	padding: 0 20px 0 10px;
+	text-align: left;
+}
+
+section.zone > .container > p {
+	text-indent: 16px;
+}
+
+section.zone > .container > p > span {
+	font-weight: bold;
+	color: #f29642;
+}
+
+section.zone img.zone-game {
+	height: 140px;
+	margin: 20px 100px;
+}
+
+section.zone .row {
+	padding: 0 50px;
+	overflow: hidden;
+}
+
+section.zone .row > .col:first-of-type {
+	float: left;
+	width: 40%;
+}
+
+section.zone .row > .col:not(:first-of-type) {
+	float: left;
+	width: 30%;
+}
+
+section.zone img.zone-toys {
+	height: 160px;
+	margin-top: 20px;
+}
+
+section.zone .item {
+	padding-left: 30px;
+}
+
+section.zone .item > img {
+	height: 80px;
+}
+
+section.zone .item > p {
+	padding: 0;
+	text-align: left;
+	font-size: 18px;
+	margin-left: 8px;
+}
+
+section.zone img.formula {
+	height: 320px;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+
+section.knex img {
+	height: 290px;
+	margin: 26px 60px;
+}
+
+section.knex .row {
+	padding: 0 50px;
+	overflow: hidden;
+}
+
+section.knex .row > .col {
+	float: left;
+	width: 50%;
+}
+
+section.knex .row > .col li {
+	list-style-type: none;
+}
+
+section.knex .row > .col h4 {
+	color: #c72222;
+	font-size: 20px;
+	margin: 16px 0;
+}
+
+section.knex .row > .col h4:before {
+	content: "•";
+	margin-right: 8px;
+	color: #c72222;
+	font-size: 26px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+
+section.knex .row > .col p {
+	padding: 0;
+	padding-right: 50px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

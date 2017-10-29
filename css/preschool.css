@@ -1,0 +1,222 @@
+section.preschool-banner {
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 86%;
+	background-image: url(http://su.yzcdn.cn/public_files/2017/10/29/66c8143dacf6ec5e4f35619748376bf3.png);
+}
+
+section.preschool-banner h2 {
+	font-size: 50px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin: 18px auto;
+	width: 300px;
+	padding: 10px;
+}
+
+section.explorer p {
+	padding: 0;
+}
+
+section.explorer h3 {
+	color: #f29642;
+	font-size: 24px;
+	line-height: 1.6;
+	margin: 0 0 20px;
+	font-weight: 200;
+}
+
+section.explorer .img-wrapper {
+	overflow: hidden;
+	height: 260px;
+}
+
+section.explorer .img-wrapper > img {
+	height: 374px;
+	margin-top: -40px;
+}
+
+section.explorer .row {
+	margin-top: 40px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+section.explorer .row > .col {
+	display: inline-block;
+}
+
+section.explorer .row > .col:first-of-type {
+	width: 57%;
+	margin-right: 4%;
+	float: left;
+}
+
+section.explorer .row > .col:last-of-type {
+	width: 38%;
+	float: left;
+}
+
+section.explorer .row > .col > img {
+	width: 100%;
+}
+
+section.explorer .row > .col > p {
+	text-align: justify;
+}
+
+section.thinking-dev p {
+	padding: 0;
+}
+
+section.thinking-dev .period.row,
+section.thinking-dev .major.row {
+	padding: 0 200px;
+}
+
+section.thinking-dev .row > h3 {
+	display: inline-block;
+	width: 120px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #f29642;
+	margin: 0;
+	line-height: 2;
+}
+
+section.thinking-dev .row > span.tag {
+	display: inline-block;
+	width: 190px;
+	font-size: 18px;
+	color: white;
+	border-radius: 10px;
+	margin: 0 16px;
+	padding: 8px 12px;
+	top: -2px;
+	position: relative;
+}
+
+section.thinking-dev .row > span.tag.green {
+	background-color: #94c335;
+}
+
+section.thinking-dev .row > span.tag.blue {
+	background-color: #3e8fce;
+}
+
+section.thinking-dev .row > span.tag.orange {
+	background-color: #ec8216;
+}
+
+section.thinking-dev .row > span.tag.red {
+	background-color: #e24e96;
+}
+
+
+section.thinking-dev .goal {
+	padding: 0 200px;
+	margin-top: 20px;
+}
+
+section.thinking-dev .goal h3 {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	color: #f29642;
+	margin: 0;
+	line-height: 2;
+	margin-bottom: 12px;
+}
+
+section.thinking-dev .goal > .row {
+	width: 622px;
+}
+
+section.thinking-dev .goal .item {
+	display: inline-block;
+	float: left;
+	width: 153px;
+	padding: 0 8px;
+}
+
+section.thinking-dev .goal .item > img {
+	width: 100px;
+}
+
+section.thinking-dev .goal .item > p {
+	font-size: 18px;
+	display: inline-block;
+	margin: 12px 16px 0;
+}
+
+section.thinking-dev .tools .row {
+	margin-top: 40px;
+	width: 100%;
+	overflow: hidden;
+}
+
+section.thinking-dev .tools .row .col {
+	display: inline-block;
+}
+
+section.thinking-dev .tools .row .col:first-of-type {
+	width: 40%;
+	margin-right: 4%;
+	float: left;
+}
+
+section.thinking-dev .tools .row .col:last-of-type {
+	width: 55%;
+	float: left;
+}
+
+section.thinking-dev .tools h3 {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	color: #f29642;
+	margin-top: 60px;
+}
+
+section.thinking-dev .tools img.band {
+	height: 68px;
+	margin-bottom: 10px;
+}
+
+section.thinking-dev .tools p {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
 }
 
 .container {
-	width: 1024px;
+	width: 980px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -20,13 +20,13 @@
 .banner.one .container .logo {
 	position: absolute;
 	top: 50px;
-	left: 10px;
+	left: 30px;
 }
 
 .banner.one .container .phone {
 	position: absolute;
 	top: 70px;
-	right: 10px;
+	right: 30px;
 }
 
 .banner.one .container .phone img {
@@ -93,17 +93,18 @@
 
 .banner.two .logo {
 	float: left;
-	margin-top: 60px;
+	margin-top: 80px;
+	margin-left: 30px;
 }
 
 .banner.two .logo > img {
-	height: 360px;
+	height: 320px;
 }
 
 .banner.two .content {
 	float: left;
 	margin-top: 60px;
-	padding: 52px 40px;
+	padding: 52px 36px;
 	color: white;
 }
 
@@ -131,7 +132,7 @@ section h2.white {
 
 section p {
 	margin: 0;
-	padding: 0 60px;
+	padding: 0 50px;
 	font-size: 16px;
 	color: rgb(102, 102, 102);
 	text-align: center;
@@ -143,7 +144,7 @@ section p {
 section.course-system {
 	background-color: rgba(255, 242, 198, 0.4);
 	width: 100%;
-	height: 620px;
+	height: 520px;
 	overflow: hidden;
 }
 
@@ -153,7 +154,7 @@ section.course-system .features {
 }
 
 section.course-system .features .card {
-	width: 300px;
+	width: 450px;
 	height: 300px;
 	padding: 52px 48px 0;
 	background-color: white;
@@ -185,20 +186,86 @@ section.course-system .features .card > img {
 }
 
 section.course-system .features .card > h3 {
-	text-align: center;
+    margin: 20px 0 0;
 	font-size: 24px;
 	font-weight: 500;
-	color: black;
+	color: #f29642;
+}
+
+section.course-system .features .card > h4 {
+	margin: 10px 0 10px;
+	font-size: 24px;
+	font-weight: 200;
+	color: #f29642;
 }
 
 section.course-system .features .card > p {
 	text-align: justify;
 	padding: 0;
+	font-size: 18px;
+    line-height: 1.4;
 }
 
+section.course-system .features .card .extra {
+	margin: 20px 0;
+	color: #f29642;
+	font-size: 18px;
+}
+
+section.course-system .features .card .extra > span {
+	padding: 4px 14px;
+    color: white;
+    font-size: 18px;
+    border-radius: 16px;
+    background-color: #f29642;
+}
+
+section.course-system .features .card .extra > b {
+    margin-left: 10px;
+}
+
+section.course-system .features .card ul {
+	margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgb(102, 102, 102);
+    list-style: none;
+}
+
+section.course-system .features .card ul > li:before {
+    content: "•";
+    margin-right: 8px;
+    color: #f29642;
+    font-size: 16px;
+}
+
+section.videos video {
+	margin-top: 20px;
+	margin-left: 120px;
+	background-color: black;
+}
+
+section.videos .circle-group {
+	float: right;
+	margin-right: 100px;
+}
+
+section.videos .circle-group > .circle {
+	display: block;
+	width: 80px;
+	height: 80px;
+	font-size: 16px;
+	border-radius: 50%;
+	border: 2px solid #f29642;
+	color: #f29642;
+	text-align: center;
+	padding: 20px 10px;
+	margin: 24px;
+}
 /* section dev-team */
 section.dev-team .professors {
-	padding: 60px 52px 20px;
+	padding: 60px 36px 20px;
 	overflow: hidden;
 }
 
@@ -284,7 +351,7 @@ section.dev-team .period .item.first p {
 
 section.dev-team .period .item.second {
 	top: 69px;
-	left: 60px;
+	left: 50px;
 }
 
 section.dev-team .period .item.second img {
@@ -305,7 +372,7 @@ section.dev-team .period .item.second p {
 }
 
 section.dev-team .period .item.third {
-	left: 20px;
+	left: 0;
 }
 
 section.dev-team .period .item.third img {
@@ -373,10 +440,15 @@ section.advantage .content > .items > p {
 }
 
 /* section learn-what */
-section.learn-what:before {
+section.learn-what > .container-wrapper {
+	margin-top: 80px;
+}
+
+section.learn-what > .container-wrapper:before {
 	content: '';
 	display: block;
 	width: 120%;
+	margin-top: 50px;
 	height: 600px;
 	border-radius: 50%;
 	background-color: #f7d14e;
@@ -386,7 +458,7 @@ section.learn-what:before {
 	z-index: 5;
 }
 
-section.learn-what:after {
+section.learn-what > .container-wrapper:after {
 	content: '';
 	display: block;
 	width: 120%;
@@ -399,13 +471,13 @@ section.learn-what:after {
 }
 
 section.learn-what {
-	margin-top: 40px;
 	position: relative;
 	height: 1150px;
 	background-color: #f7d14e;
+	overflow: hidden;
 }
 
-section.learn-what > .container {
+section.learn-what .container {
 	z-index: 10;
 }
 
@@ -417,7 +489,7 @@ section.learn-what img.grass {
 	position: absolute;
 	height: 180px;
 	right: 52px;
-	top: -60px;
+	top: 0;
 	z-index: 3;
 }
 
@@ -472,14 +544,14 @@ section.learn-what .pyramid > h3 {
 	position: absolute;
 	color: white;
 	top: -14px;
-	right: 254px;
+	right: 214px;
 	font-size: 26px;
 }
 
 section.learn-what .pyramid > .step {
 	position: absolute;
 	top: 72px;
-	right: 64px;
+	right: 20px;
 }
 
 section.learn-what .pyramid > .step > .item {
@@ -549,9 +621,10 @@ section.partners {
 	height: 240px;
 	background-color: #f7d14e;
 	z-index: 1;
+	overflow: hidden;
 }
 
-section.partners:before {
+section.partners > .container-wrapper:before {
 	content: '';
 	display: block;
 	width: 120%;
@@ -559,12 +632,12 @@ section.partners:before {
 	border-radius: 50%;
 	background-color: #f7d14e;
 	position: absolute;
-	top: -360px;
+	top: -400px;
 	left: -10%;
 	z-index: 5;
 }
 
-section.partners:after {
+section.partners > .container-wrapper:after {
 	content: '';
 	display: block;
 	width: 120%;
@@ -604,7 +677,7 @@ section.partners .image-wrapper > img {
 section.partners img.landing {
 	position: absolute;
 	right: 0;
-	bottom: -180px;
+	bottom: -100px;
 	width: 120px;
 }
 
@@ -644,7 +717,7 @@ footer {
 
 footer .content-wrapper {
 	width: 100%;
-	padding: 20px 230px;
+	padding: 20px 130px;
 	overflow: hidden;
 }
 
@@ -693,5 +766,8 @@ footer .content-wrapper > .contact > .info > span {
 	margin-left: 10px;
 }
 
-
-
+footer .content-wrapper img.qrcode {
+	float: left;
+	height: 120px;
+	margin: 20px -6px;
+}
