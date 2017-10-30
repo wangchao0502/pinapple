@@ -15,6 +15,12 @@
 		* {
 			font-family: Microsoft YaHei,serif;
 		}
+		#img-group {
+			width: 600px;
+			margin: 20px auto;
+			position: relative;
+			left: 5px;
+		}
 	</style>
 </head>
 <body>
@@ -89,6 +95,28 @@
 		<section class="videos">
 			<div class="container">
 				<h2>菠萝星球的课程示例</h2>
+				<div class="swiper-container" id="img-group">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img width="290" src="http://img.yzcdn.cn/public_files/2017/10/31/0c72a1a661e5baf337d2460e381a153a.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img width="290" src="http://img.yzcdn.cn/public_files/2017/10/31/e7a68b44679a91d2faead497c61d651d.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img width="290" src="http://img.yzcdn.cn/public_files/2017/10/31/f67a51193e08580fa3747a1c1cc26da6.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img width="290" src="http://img.yzcdn.cn/public_files/2017/10/31/0dd6cb1a908a179d005a3e11c2cc7f60.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img width="290" src="http://img.yzcdn.cn/public_files/2017/10/31/f98131e5c8b145c9cd38500d6e98acdf.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img width="290" src="http://img.yzcdn.cn/public_files/2017/10/31/dc68fa9d029ded7872d3bf1f51fa896d.jpg" alt="">
+						</div>
+					</div>
+				</div>
 				<div class="btn-group">
 					<button id="video-btn1">科学探索</button>
 					<button id="video-btn2">智数开发</button>
@@ -343,6 +371,16 @@
 				});
 			}
 		});
+
+
+	    var swiper = new Swiper('#img-group', {
+	        slidesPerView: 2,
+			calculateHeight : true,
+	        spaceBetween: 20,
+	        freeMode: true,
+	        loop: true,
+			autoplay : 3000
+	    });
 
 		const btn1 = document.getElementById('video-btn1');
 		const btn2 = document.getElementById('video-btn2');
