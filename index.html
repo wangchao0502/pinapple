@@ -354,13 +354,16 @@
 				</div>
 				<img class="qrcode" src="http://dn-kdt-img-test.qbox.me/public_files/2017/10/29/72871cf3f043b6fca8906c1c5f9a170f.png" alt="二维码">
 			</div>
+            <div style="text-align: center;font-size: 12px;position: relative;top: -10px;">
+				© 2017 菠萝星球 沪ICP备：14002978号 - 7
+			</div>
 		</div>
 	</footer>
 </body>
 </html>
 <script type="text/javascript">
 	window.onload = function() {
-		var mySwiper = new Swiper('.swiper-container', {
+		new Swiper('.swiper-container', {
 			loop: true,
 			autoplay : 5000,
 			simulateTouch: false,
@@ -374,8 +377,7 @@
 			}
 		});
 
-
-	    var swiper = new Swiper('#img-group', {
+	    new Swiper('#img-group', {
 	        slidesPerView: 2,
 			calculateHeight : true,
 	        spaceBetween: 20,
@@ -404,7 +406,7 @@
 			video.autoplay = true;
 			video.load();
 		});
-	}
+	};
 
 	$youziku.load("h1,h2,h3,h4", "2773c1ab29154619baebcd29348bf342", "YouYuan");
 	$youziku.load("p", "df7866451b9f44788ee77fe247ee5561", "Source-Han-Normal");
