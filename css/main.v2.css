@@ -1,0 +1,149 @@
+@import './reset.css';
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 0;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/*header*/
+header {
+	height: 60px;
+	overflow: hidden;
+}
+.header__logo {
+	float: left;
+	margin-top: 10px;
+	margin-left: 86px;
+}
+.header__logo img {
+	height: 40px;
+}
+.header__nav {
+	margin-top: 18px;
+	margin-left: 300px;
+}
+.nav__list {
+	float: left;
+}
+.nav__item {
+	display: inline-block;
+	margin-right: 55px;
+	line-height: 26px;
+	font-size: 18px;
+	color: #5A5A5A;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	transition: .25s all ease-in-out;
+}
+.nav__item:hover,
+.nav__item--active {
+	border-bottom: 2px solid #F3995A;
+}
+
+/*banner*/
+.banner__img {
+	width: 100%;
+}
+
+/*feature*/
+.feature {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.feature__item {
+	width: 25%;
+	float: left;
+	padding: 0 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #9B9B9B;
+	line-height: 18px;
+}
+.feature__item .item__img {
+	position: relative;
+	height: 160px;
+}
+.feature__item .item__img img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform: scale(0.8);
+}
+.feature__item .item__content {
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: justify;
+}
+.feature__item .item__title {
+	font-size: 16px;
+	line-height: 2;
+	color: #F3995A;
+}
+
+/*connect*/
+.connect {
+	color: #ffffff;
+	background-color: #F3995A;
+	overflow: hidden;
+}
+.connect__logo {
+	float: left;
+	height: 40px;
+	margin-left: 52px;
+	margin-top: 17px;
+}
+.connect__title {
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.connect__form {
+	float: left;
+	margin-left: 20px;
+}
+.connect__form .form__item {
+	float: left;
+	margin-top: 6px;
+	margin-right: 20px;
+}
+.form__label {
+	font-size: 12px;
+	line-height: 2;
+}
+.form__input {
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	font-size: 14px;
+	outline: none;
+	border: none;
+	background-color: #E67F37;
+}
+.form__submit {
+	float: left;
+	margin-top: 30px;
+	width: 80px;
+	height: 30px;
+	line-height: 1;
+	padding: 9px 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 12px;
+	color: #F3995A;
+}
