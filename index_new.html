@@ -5,7 +5,14 @@
 	<title>菠萝星球</title>
 	<meta name="viewport" content="user-scalable=no">
 	<link rel="icon" href="http://su.yzcdn.cn/public_files/2017/9/21/db9fbf64fa4d08ba6ebcc464a9c5942b.png">
-	<link rel="stylesheet" type="text/css" href="css/main.v2.css">
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/109942/47019/59f805fff629d80d184743f7.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/main.v2.css">
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <style>
+        * {
+            font-family: Microsoft YaHei,serif;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -182,7 +189,7 @@
     </section>
     <section class="video">
         <div class="container">
-            <h2 class="section__title">课程DEMO视频</h2>
+            <h2 class="section__title">课程<span class="csse1600b4451ad76"> DEMO </span>视频</h2>
             <div class="section__divide"></div>
             <div class="video__container">
                 <video id="media" src="http://su.yzcdn.cn/public_files/2017/10/29/eaa0141240d538b7257ab19cf410fb21.mp4" controls="controls" height="320" width="568">
@@ -212,6 +219,80 @@
             </div>
         </div>
     </section>
+    <section class="join">
+        <div class="container">
+            <h2 class="section__title">菠萝星球 期待您的加入！</h2>
+            <div class="section__divide white"></div>
+            <div class="join__list">
+                <div class="join__item">
+                    <p class="number">89432</p>
+                    <div>
+                        <p class="tag tag--green">活跃学员</p>
+                    </div>
+                </div>
+                <div class="join__item">
+                    <p class="number">12</p>
+                    <div>
+                        <p class="tag tag--yellow">授权机构</p>
+                    </div>
+                </div>
+                <div class="join__item">
+                    <p class="number">31</p>
+                    <div>
+                        <p class="tag tag--orange">合作院校</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="connect">
+        <div class="container">
+            <img class="connect__logo" src="img_v2/connect-logo.png">
+            <div class="connect__title">
+                <p>需要更多信息<br/>并获得最佳解决方案？</p>
+            </div>
+            <form action="" class="connect__form">
+                <div class="form__item">
+                    <div class="form__label">姓名</div>
+                    <input class="form__input" name="name" type="text">
+                </div>
+                <div class="form__item">
+                    <div class="form__label">联系电话</div>
+                    <input class="form__input" name="mobile" type="text">
+                </div>
+                <div class="form__item">
+                    <div class="form__label">公司名称</div>
+                    <input class="form__input" name="company" type="text">
+                </div>
+                <button type="submit" class="form__submit">提交</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="logo">
+                    <img src="img/菠萝星球LOGOV3-@1x.png" alt="logo">
+                </div>
+                <div class="contact">
+                    <h3>联系我们</h3>
+                    <div class="info">
+                        <span>公众号：Mystem菠萝星球</span>
+                    </div>
+                    <div class="info">
+                        <span>info@mali-education.com</span>
+                    </div>
+                    <div class="info">
+                        <span>上海市宝山区一二八纪念路928号1113室</span>
+                    </div>
+                </div>
+                <img class="qrcode" src="http://dn-kdt-img-test.qbox.me/public_files/2017/10/29/72871cf3f043b6fca8906c1c5f9a170f.png" alt="二维码">
+            </div>
+            <div style="text-align: center;font-size: 12px;position: relative;top: -10px;">
+                © 2017 菠萝星球 沪ICP备：14002978号 - 7
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 <script type="text/javascript">
@@ -249,4 +330,8 @@
             video.load();
         });
     };
+
+    $youziku.load("h1,h2,h3,h4", "2773c1ab29154619baebcd29348bf342", "YouYuan");
+    $youziku.load("p", "df7866451b9f44788ee77fe247ee5561", "Source-Han-Normal");
+    $youziku.draw();
 </script>

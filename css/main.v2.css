@@ -455,3 +455,107 @@ header {
 	font-size: 12px;
 	color: #ffffff;
 }
+
+/*join*/
+.join {
+	position: relative;
+	padding: 10px 0 40px;
+	background-image: url("../img_v2/join-bg.png");
+	background-size: cover;
+}
+.join:after {
+	content: '';
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+.join .container {
+	position: relative;
+	z-index: 10;
+}
+.join .section__title {
+	font-size: 30px;
+	color: white;
+}
+.join__list {
+	overflow: hidden;
+}
+.join__item {
+	width: 33.33%;
+	display: inline-block;
+	text-align: center;
+}
+.join__item .number {
+	display: inline-block;
+	margin: 0 auto 10px;
+	color: white;
+	font-size: 38px;
+	font-family: serif !important;
+}
+.join__item .tag {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 4px 10px;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white;
+	font-weight: 200;
+}
+.join__item .tag.tag--green {
+	background-color: #7CC79F;
+}
+.join__item .tag.tag--yellow {
+	background-color: #FFC958;
+}
+.join__item .tag.tag--orange {
+	background-color: #F3995A;
+}
+
+/*footer*/
+footer {
+}
+footer .content-wrapper {
+	width: 100%;
+	padding: 20px 130px 0;
+	overflow: hidden;
+}
+footer .content-wrapper > .logo {
+	float: left;
+	width: 200px;
+	height: 160px;
+	text-align: center;
+}
+footer .content-wrapper > .contact {
+	float: left;
+	width: 360px;
+	height: 140px;
+	margin-top: 4px;
+	padding-left: 50px;
+}
+footer .content-wrapper > .contact > h3 {
+	color: #231b1c;
+	font-size: 12px;
+	font-weight: bold;
+}
+footer .content-wrapper > .contact > .info {
+	margin: 12px 0;
+	overflow: hidden;
+}
+footer .content-wrapper > .contact > .info > img {
+	width: 14px;
+	float: left;
+}
+footer .content-wrapper > .contact > .info > span {
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+footer .content-wrapper img.qrcode {
+	float: left;
+	height: 100px;
+	margin: 10px -6px;
+}
