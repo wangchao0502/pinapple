@@ -7,6 +7,8 @@
 	<link rel="icon" href="http://su.yzcdn.cn/public_files/2017/9/21/db9fbf64fa4d08ba6ebcc464a9c5942b.png">
     <link href='http://cdn.webfont.youziku.com/webfonts/nomal/109942/47019/59f805fff629d80d184743f7.css' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="css/main.v2.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
     <style>
         * {
@@ -74,7 +76,7 @@
             <div class="connect__title">
                 <p>需要更多信息<br/>并获得最佳解决方案？</p>
             </div>
-            <form action="" class="connect__form">
+            <form action="http://116.196.77.133:8001/api/email" method="post" class="connect__form">
                 <div class="form__item">
                     <div class="form__label">姓名</div>
                     <input class="form__input" name="name" type="text">
@@ -244,7 +246,7 @@
             <div class="connect__title">
                 <p>需要更多信息<br/>并获得最佳解决方案？</p>
             </div>
-            <form action="" class="connect__form">
+            <form action="http://116.196.77.133:8001/api/email" method="post" class="connect__form">
                 <div class="form__item">
                     <div class="form__label">姓名</div>
                     <input class="form__input" name="name" type="text">
@@ -321,6 +323,39 @@
             video.src = 'http://b.yzcdn.cn/public_files/2017/10/29/444d8e47bb7e2f4ce32290a0cba5b816.mp4';
             video.autoplay = true;
             video.load();
+        });
+
+        $('.connect__form').submit(function(e) {
+            e.preventDefault();
+            const postData = $(this).serializeArray();
+            if (!postData.every(item => !!item.value)) {
+                swal({
+                    text: "您有未填写的信息",
+                    icon: "error", 
+                    button: "确定" 
+                });
+                return;
+            }
+            $.ajax({
+              url: $(this).attr('action'),
+              type: 'POST',
+              data : $(this).serialize(),
+              success: function() {
+                swal({
+                    title: '提交成功！',
+                    text: '我们已收到您的申请',
+                    icon: 'success',
+                    button: '确定'
+                });
+              },
+              error: function(jqXHR, textStatus, error) {
+                swal({
+                    text: "提交失败",
+                    icon: "error", 
+                    button: "确定" 
+                });
+              }
+            });
         });
     };
 
